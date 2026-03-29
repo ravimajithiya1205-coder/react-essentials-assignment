@@ -80,7 +80,10 @@ src/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/ravimajithiya1205-coder/react-essentials-assignment-app.git
+git clone https://github.com/your-username/react-essentials-assignment.git
+cd react-essentials-assignment
+cd Assignment-2
+
 
 ```
 
@@ -121,7 +124,7 @@ This project is deployed on **Vercel**
 👉 Live URL:
 
 ```
-https://react-essentials-assignment-app.vercel.app/
+https://react-essentials-assignment-seven.vercel.app/
 ```
 
 ---
