@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* GLASS EFFECT */
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  color: #000;
+}
+
+/* DARK MODE FIX */
+.bg-dark .card {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* SMOOTH ANIMATION */
+.card {
+  transition: 0.3s ease;
+}
+
+/* HOVER LIFT */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* BUTTON HOVER */
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline-dark.btntxt-hover-dark:hover{
+  color: #fff !important;
+}
+
+.btn-outline-light.btntxt-hover-dark:hover{
+  color: #000 !important;
+}
+
+.z-index-9{
+  z-index: 9;
+}
