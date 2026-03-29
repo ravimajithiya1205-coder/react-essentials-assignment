@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+      box-shadow: 0px 2px 0px -1px #00000021;
+    padding: 0 0 10px 0;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.buttons button {
+  margin-left: 5px;
+}
+
+.summary {
+  margin: 10px 0;
+}
