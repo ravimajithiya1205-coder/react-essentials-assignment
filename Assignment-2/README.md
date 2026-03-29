@@ -6,7 +6,7 @@ A modern **Task Manager App** built using **React, Context API, and useReducer**
 
 ## 🚀 Live Demo
 
-🔗 https://your-deployed-link.netlify.app
+
 
 ---
 
@@ -15,6 +15,7 @@ A modern **Task Manager App** built using **React, Context API, and useReducer**
 ```bash
 git clone https://github.com/your-username/react-essentials-assignment.git
 cd react-essentials-assignment
+cd Assignment-2
 npm install
 npm start
 ```
@@ -77,6 +78,7 @@ git clone https://github.com/your-username/react-essentials-assignment.git
 
 ```bash
 cd react-essentials-assignment
+cd Assignment-2
 ```
 
 3. Install dependencies
@@ -116,12 +118,22 @@ assets/
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Contributing
 
-**Ravi Majithiya**
+Feel free to fork this project and improve it!
 
 ---
 
-## 📜 License
+## 📧 Author
 
-This project is open-source and available under the MIT License.
+**Ravi Majithiya**
+Frontend Developer 💻
+Passionate about building modern UI with React 🚀
+
+---
+
+## ⭐ Support
+
+If you like this project:
+👉 Give it a ⭐ on GitHub
+---
