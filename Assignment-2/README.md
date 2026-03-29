@@ -6,7 +6,7 @@ A modern **Task Manager App** built using **React, Context API, and useReducer**
 
 ## 🚀 Live Demo
 
-
+https://react-essentials-assignment-assignm.vercel.app/
 
 ---
 
