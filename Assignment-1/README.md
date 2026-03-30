@@ -102,7 +102,7 @@ npm install
 Create a `.env` file in root:
 
 ```env
-VITE_TMDB_KEY=f780d120a448402f8f30d1a56a4a4db5
+VITE_TMDB_KEY=API_KEY
 ```
 
 👉 Get API key from https://www.themoviedb.org/
