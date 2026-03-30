@@ -82,7 +82,7 @@ src/
 ```bash
 git clone https://github.com/your-username/react-essentials-assignment.git
 cd react-essentials-assignment
-cd Assignment-2
+cd Assignment-1
 
 
 ```
