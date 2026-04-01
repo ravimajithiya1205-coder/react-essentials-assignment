@@ -6,7 +6,7 @@ A modern **React-based Weather App** that fetches real-time weather data and dis
 
 ## 🚀 Live Demo
 
-👉 https://your-deployed-link.netlify.app
+👉 https://react-essentials-assignment-weather.vercel.app/
 
 ---
 
@@ -162,12 +162,15 @@ src/assets//screenshot
 
 3. Use:
 
-```
-![alt text](src//assets/screenshot/city not found.png)
-![alt text](src//assets/screenshot/weather_full.png)
-```
+assets/
+    screenshot/
+        cityNotFound.png
+        weather_full.png
 
----
+![alt text](src/assets/screenshot/cityNotFound.png) 
+![alt text](src//assets/screenshot/weather_full.png)
+
+```
 
 ## 🤝 Contributing
 
