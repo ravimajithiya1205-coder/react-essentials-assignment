@@ -28,7 +28,7 @@ class App extends Component {
 
     const { name, grade, students } = this.state;
 
-    if (!name || grade < 0 || grade > 100) {
+      if (!name.trim() || grade === "" || grade < 0 || grade > 100) {
       alert("Enter valid data");
       return;
     }
@@ -81,7 +81,7 @@ class App extends Component {
             </Form.Group>
 
             <div className="text-center">
-              <Button variant="primary" className="px-4 fw-bold">
+              <Button type="submit" variant="primary" className="px-4 fw-bold">
                Add Student
               </Button>
             </div>

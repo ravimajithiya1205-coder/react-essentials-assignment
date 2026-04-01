@@ -6,7 +6,7 @@ A modern and interactive **Student Grade Tracker** built using **React Class-Bas
 
 ## 🚀 Live Demo
 
-👉 https://your-deployed-link.netlify.app
+👉 https://react-essentials-assignment-grade.vercel.app/
 
 ---
 
