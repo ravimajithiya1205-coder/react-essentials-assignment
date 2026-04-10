@@ -129,6 +129,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
+🔗 https://react-essentials-assignment-expens.vercel.app/
 
 ---
 
