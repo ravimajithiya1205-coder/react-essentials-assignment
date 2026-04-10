@@ -1,16 +1,197 @@
-# React + Vite
+# 💸 Personal Expense Tracker (Custom Hooks + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Introduction
 
-Currently, two official plugins are available:
+The **Personal Expense Tracker** is a React-based web application designed to manage daily expenses efficiently. This project focuses on implementing **Custom Hooks**, **LocalStorage integration**, and **modular architecture** to separate business logic from UI components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It demonstrates how modern React applications can be structured for **scalability, reusability, and maintainability**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* ➕ Add new expenses (title, amount, category, date)
+* 🗑️ Delete expenses
+* 📋 Dynamic expense listing
+* 💾 Data persistence using LocalStorage
+* 🔍 Filter expenses by category
+* 📊 Total expense summary
+* ♻️ Reusable Custom Hooks
+* 🧠 Clean separation of logic and UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* React JS
+* JavaScript (ES6+)
+* Bootstrap 5
+* LocalStorage API
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── ExpenseForm.jsx
+│   ├── ExpenseList.jsx
+│   ├── Filters.jsx
+│   ├── Summary.jsx
+│
+├── hooks/
+│   ├── useExpenses.js
+│   ├── useLocalStorage.js
+│   ├── useForm.js
+│
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## 🧠 Custom Hooks Overview
+
+### 🔹 useForm()
+
+Manages form input state and handles changes efficiently.
+
+### 🔹 useExpenses()
+
+Handles:
+
+* Adding expenses
+* Deleting expenses
+* Managing expense state
+
+### 🔹 useLocalStorage()
+
+* Saves data in browser storage
+* Loads data on page refresh
+* Keeps UI and storage in sync
+
+---
+
+## 📊 Functionality Breakdown
+
+### 1️⃣ Add Expense
+
+Users can enter:
+
+* Title
+* Amount
+* Category
+* Date
+
+### 2️⃣ Display Expenses
+
+* All expenses are listed dynamically
+* Data updates instantly
+
+### 3️⃣ Delete Expense
+
+* Remove any expense from the list
+
+### 4️⃣ Data Persistence
+
+* Expenses are stored in **LocalStorage**
+* Data remains even after page reload
+
+### 5️⃣ Filtering
+
+* Filter expenses based on category
+
+### 6️⃣ Summary
+
+* Displays total spending amount
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/react-expense-tracker.git
+
+# Navigate to project folder
+cd react-expense-tracker
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+
+---
+
+## 📦 GitHub Repository
+
+🔗 https://github.com/yourusername/react-expense-tracker
+
+---
+
+## 🖼️ Screenshots
+
+assets/
+    screenshot/
+        ExpensList.png
+        ExpensTracker.png
+
+![alt text](src/assets/screenshot/ExpensList.png) 
+![alt text](src/assets/screenshot/ExpensTracker.png) 
+
+---
+
+## ✨ Future Enhancements
+
+* 📅 Date range filtering
+* 🔍 Search functionality
+* 📊 Charts (Expense Analytics)
+* 🔃 Sorting (amount/date/category)
+* 🌙 Dark mode UI
+* 📁 Export data (CSV)
+
+---
+
+## 🎯 Learning Outcomes
+
+By completing this project, you will:
+
+* Understand **Custom Hooks in React**
+* Learn **state management patterns**
+* Implement **LocalStorage persistence**
+* Build **modular and reusable code**
+* Improve **real-world project structuring skills**
+
+---
+
+## 📄 License
+
+This project is free for learning and educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Ravi Majithiya**
+Frontend Developer 💻
+Passionate about building modern UI with React 🚀
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star this repository
+* 🔁 Share with others
+
+---
