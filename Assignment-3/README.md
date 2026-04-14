@@ -67,7 +67,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/react-essentials-assignment.git
+git clone https://github.com/ravimajithiya1205-coder/react-essentials-assignment
 ```
 
 ### 2️⃣ Navigate to project
@@ -135,6 +135,7 @@ This project uses multiple `useEffect()` hooks:
 ## 🖼️ Screenshots
 
 ### 🌤️ Weather Dashboard
+
 
 ![alt text](src//assets/screenshot/weather_full.png)
 
