@@ -59,7 +59,7 @@ src/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/react-essentials-assignment.git
+git clone https://github.com/ravimajithiya1205-coder/react-essentials-assignment
 ```
 
 ### 2️⃣ Navigate to Project Folder
@@ -158,14 +158,6 @@ assets/
 ```
 npm run build
 ```
-
-## 📸 Add Images in README
-
-```
-![Alt Text](./screenshots/image.png)
-```
-
----
 
 ## 🤝 Contributing
 
