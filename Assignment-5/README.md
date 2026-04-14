@@ -8,6 +8,12 @@ It demonstrates how modern React applications can be structured for **scalabilit
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://react-essentials-assignment-expens.vercel.app/
+
+---
+
 ## 🚀 Features
 
 * ➕ Add new expenses (title, amount, category, date)
@@ -113,10 +119,10 @@ Users can enter:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/react-expense-tracker.git
+git clone https://github.com/ravimajithiya1205-coder/react-essentials-assignment
 
 # Navigate to project folder
-cd react-expense-tracker
+cd Assignment-5
 
 # Install dependencies
 npm install
@@ -135,7 +141,7 @@ npm run dev
 
 ## 📦 GitHub Repository
 
-🔗 https://github.com/yourusername/react-expense-tracker
+🔗 https://github.com/ravimajithiya1205-coder/react-essentials-assignment
 
 ---
 
