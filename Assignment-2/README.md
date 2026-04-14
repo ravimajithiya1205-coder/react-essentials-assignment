@@ -10,18 +10,6 @@ https://react-essentials-assignment-assignm.vercel.app/
 
 ---
 
-## 📦 GitHub Repository
-
-```bash
-git clone https://github.com/your-username/react-essentials-assignment.git
-cd react-essentials-assignment
-cd Assignment-2
-npm install
-npm start
-```
-
----
-
 ## 🧠 Features
 
 * ➕ Add new tasks
@@ -71,7 +59,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-essentials-assignment.git
+git clone https://github.com/ravimajithiya1205-coder/react-essentials-assignment
 ```
 
 2. Navigate to project folder
